@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{142338FA-186F-42F3-8555-610CD7796109}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZEDPAITA.SRV.Core</RootNamespace>
+    <AssemblyName>ZEDPAITA.SRV.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\CrearTicket.cs" />
+    <Compile Include="Common\Enumerados.cs" />
+    <Compile Include="Models\Base\Definicion.cs" />
+    <Compile Include="Models\Base\Entity.cs" />
+    <Compile Include="Models\CarpetaServidor\CarpetaServidorDTO.cs" />
+    <Compile Include="Models\EnvioFacturaSunat\EnvioFacturaSunatDTO.cs" />
+    <Compile Include="Models\GenerateLegalDocument\GenerateLegaDocumentVentasDTO.cs" />
+    <Compile Include="Models\GenerateLegalDocument\GenerateLegalDocumentDetalleDTO.cs" />
+    <Compile Include="Models\GenerateLegalDocument\GenerateLegalDocumentDTO.cs" />
+    <Compile Include="Models\Impresor\ConfiguracionImpresor.cs" />
+    <Compile Include="Models\Impresor\DocumentoImprimirDTO.cs" />
+    <Compile Include="Models\Notificacion\DocumentoNotificacionDTO.cs" />
+    <Compile Include="Models\Impresor\MovimientoCabceraDTO.cs" />
+    <Compile Include="Models\Impresor\MovimientoDetalleDTO.cs" />
+    <Compile Include="Models\Impresor\MovimientoDocumentoDTO.cs" />
+    <Compile Include="Models\Policy\InformacionDinamicaModel.cs" />
+    <Compile Include="Models\Policy\ParametroSeccionDTO.cs" />
+    <Compile Include="Models\Policy\ParametroValorDTO.cs" />
+    <Compile Include="Models\RespuestaProceso.cs" />
+    <Compile Include="Models\ServicioEmail\FileEmail.cs" />
+    <Compile Include="Models\ServicioEmail\SendEmail.cs" />
+    <Compile Include="Models\ServicioEmail\SendEmailIn.cs" />
+    <Compile Include="Models\ServicioPesaje\ObtenerPesaje.cs" />
+    <Compile Include="Models\ServicioPesaje\ObtenerPesajeIn.cs" />
+    <Compile Include="Pesaje\SPHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryInterfaces\IGenerateLegalDocumentRepository.cs" />
+    <Compile Include="RepositoryInterfaces\IImpresorRepository.cs" />
+    <Compile Include="RepositoryInterfaces\INotificacionRepository.cs" />
+    <Compile Include="RepositoryInterfaces\IParametrosRepository.cs" />
+    <Compile Include="RepositoryInterfaces\ISendInvoiceSunatRepository.cs" />
+    <Compile Include="ServiceInterfaces\IEmailService.cs" />
+    <Compile Include="ServiceInterfaces\IGenerateLegalDocumentService.cs" />
+    <Compile Include="ServiceInterfaces\IImpresorService.cs" />
+    <Compile Include="ServiceInterfaces\INotificacionService.cs" />
+    <Compile Include="ServiceInterfaces\IParametroService.cs" />
+    <Compile Include="ServiceInterfaces\IPesajeService.cs" />
+    <Compile Include="ServiceInterfaces\ISendInvoiceSunatService.cs" />
+    <Compile Include="Services\EmailService.cs" />
+    <Compile Include="Services\GenerateLegalDocumentService.cs" />
+    <Compile Include="Services\ImpresorService.cs" />
+    <Compile Include="Services\NotificacionService.cs" />
+    <Compile Include="Services\ParametroService.cs" />
+    <Compile Include="Services\PesajeService.cs" />
+    <Compile Include="Services\SendInvoiceSunatService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZEDPAITA.SRV.FileManager\ZEDPAITA.SRV.FileManager.csproj">
+      <Project>{53a1cef9-6e70-4230-b525-ac70410b6ee6}</Project>
+      <Name>ZEDPAITA.SRV.FileManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZEDPAITA.SRV.Proxies\ZEDPAITA.SRV.Proxies.csproj">
+      <Project>{ffed463b-24b4-4525-a2f9-1e797e5d8769}</Project>
+      <Name>ZEDPAITA.SRV.Proxies</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZEDPAITA.SRV.Util.Impresion\ZEDPAITA.SRV.Util.Impresion.csproj">
+      <Project>{CD57DE77-116D-4E73-ABE3-D516F08E7479}</Project>
+      <Name>ZEDPAITA.SRV.Util.Impresion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZEDPAITA.SRV.Util.LoggingInterface\ZEDPAITA.SRV.Util.LoggingInterface.csproj">
+      <Project>{F325D3D4-B4EC-4FAD-B5B9-7BD08C1C3BD7}</Project>
+      <Name>ZEDPAITA.SRV.Util.LoggingInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

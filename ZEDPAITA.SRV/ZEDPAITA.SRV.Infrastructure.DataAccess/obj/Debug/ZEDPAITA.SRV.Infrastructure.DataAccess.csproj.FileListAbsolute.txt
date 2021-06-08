@@ -1,0 +1,14 @@
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Infrastructure.DataAccess\bin\Debug\ZEDPAITA.SRV.Infrastructure.DataAccess.dll
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Infrastructure.DataAccess\bin\Debug\ZEDPAITA.SRV.Infrastructure.DataAccess.pdb
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Infrastructure.DataAccess\bin\Debug\BouncyCastle.Crypto.dll
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Infrastructure.DataAccess\bin\Debug\Google.Protobuf.dll
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Infrastructure.DataAccess\bin\Debug\MySql.Data.dll
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Infrastructure.DataAccess\bin\Debug\Renci.SshNet.dll
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Infrastructure.DataAccess\bin\Debug\Google.Protobuf.xml
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Infrastructure.DataAccess\bin\Debug\MySql.Data.xml
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Infrastructure.DataAccess\bin\Debug\Renci.SshNet.xml
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Infrastructure.DataAccess\obj\Debug\ZEDPAITA.SRV.Infrastructure.DataAccess.csprojAssemblyReference.cache
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Infrastructure.DataAccess\obj\Debug\ZEDPAITA.SRV.Infrastructure.DataAccess.csproj.CoreCompileInputs.cache
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Infrastructure.DataAccess\obj\Debug\ZEDPAITA.SRV.Infrastructure.DataAccess.csproj.CopyComplete
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Infrastructure.DataAccess\obj\Debug\ZEDPAITA.SRV.Infrastructure.DataAccess.dll
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Infrastructure.DataAccess\obj\Debug\ZEDPAITA.SRV.Infrastructure.DataAccess.pdb

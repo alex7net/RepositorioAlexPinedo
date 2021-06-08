@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ZEDPAITA.SRV.DistributedService.Deploy.ServicioEmail" CodeBehind="ServicioEmail.svc.cs" %>

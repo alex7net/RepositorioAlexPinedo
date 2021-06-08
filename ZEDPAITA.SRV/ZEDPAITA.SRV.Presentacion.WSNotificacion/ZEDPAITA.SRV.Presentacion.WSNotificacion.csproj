@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A90BEA10-4C6E-494F-98B2-6A11AE2926DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ZEDPAITA.SRV.Presentacion.WSNotificacion</RootNamespace>
+    <AssemblyName>ZEDPAITA.SRV.Presentacion.WSNotificacion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WSNotificacion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WSNotificacion.Designer.cs">
+      <DependentUpon>WSNotificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZEDPAITA.SRV.Core\ZEDPAITA.SRV.Core.csproj">
+      <Project>{142338FA-186F-42F3-8555-610CD7796109}</Project>
+      <Name>ZEDPAITA.SRV.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZEDPAITA.SRV.Infrastructure\ZEDPAITA.SRV.Infrastructure.csproj">
+      <Project>{7EBD2C9F-B9F3-4259-924B-0982B2371089}</Project>
+      <Name>ZEDPAITA.SRV.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZEDPAITA.SRV.Util.Impresion\ZEDPAITA.SRV.Util.Impresion.csproj">
+      <Project>{CD57DE77-116D-4E73-ABE3-D516F08E7479}</Project>
+      <Name>ZEDPAITA.SRV.Util.Impresion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZEDPAITA.SRV.Util.Log4Net\ZEDPAITA.SRV.Util.Log4Net.csproj">
+      <Project>{9C53D001-CD8D-4AD7-924E-832DF7EDDBE3}</Project>
+      <Name>ZEDPAITA.SRV.Util.Log4Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZEDPAITA.SRV.Util.LoggingInterface\ZEDPAITA.SRV.Util.LoggingInterface.csproj">
+      <Project>{F325D3D4-B4EC-4FAD-B5B9-7BD08C1C3BD7}</Project>
+      <Name>ZEDPAITA.SRV.Util.LoggingInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

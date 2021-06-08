@@ -1,0 +1,6 @@
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.FileManager\bin\Debug\ZEDPAITA.SRV.FileManager.dll
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.FileManager\bin\Debug\ZEDPAITA.SRV.FileManager.pdb
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.FileManager\obj\Debug\ZEDPAITA.SRV.FileManager.csprojAssemblyReference.cache
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.FileManager\obj\Debug\ZEDPAITA.SRV.FileManager.csproj.CoreCompileInputs.cache
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.FileManager\obj\Debug\ZEDPAITA.SRV.FileManager.dll
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.FileManager\obj\Debug\ZEDPAITA.SRV.FileManager.pdb

@@ -1,0 +1,10 @@
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Util.Impresion\bin\Debug\ZEDPAITA.SRV.Util.Impresion.dll
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Util.Impresion\bin\Debug\ZEDPAITA.SRV.Util.Impresion.pdb
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Util.Impresion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Util.Impresion\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Util.Impresion\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Util.Impresion\obj\Debug\ZEDPAITA.SRV.Util.Impresion.csprojAssemblyReference.cache
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Util.Impresion\obj\Debug\ZEDPAITA.SRV.Util.Impresion.csproj.CoreCompileInputs.cache
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Util.Impresion\obj\Debug\ZEDPAITA.SRV.Util.Impresion.csproj.CopyComplete
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Util.Impresion\obj\Debug\ZEDPAITA.SRV.Util.Impresion.dll
+D:\ALEX\ZEDPAITA\SVN_SRV_ERP_ZEDPAITA\Branches\ultimo3.1\ZEDPAITA.SRV\ZEDPAITA.SRV.Util.Impresion\obj\Debug\ZEDPAITA.SRV.Util.Impresion.pdb

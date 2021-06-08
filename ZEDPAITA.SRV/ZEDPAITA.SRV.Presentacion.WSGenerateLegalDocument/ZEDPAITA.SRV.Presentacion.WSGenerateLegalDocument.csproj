@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{32CC5670-D35A-4485-AC38-FD0B642AA504}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ZEDPAITA.SRV.Presentacion.WSGenerateLegalDocument</RootNamespace>
+    <AssemblyName>ZEDPAITA.SRV.Presentacion.WSGenerateLegalDocument</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WSGenerateLegalDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WSGenerateLegalDocument.Designer.cs">
+      <DependentUpon>WSGenerateLegalDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZEDPAITA.SRV.Core\ZEDPAITA.SRV.Core.csproj">
+      <Project>{142338FA-186F-42F3-8555-610CD7796109}</Project>
+      <Name>ZEDPAITA.SRV.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZEDPAITA.SRV.Infrastructure\ZEDPAITA.SRV.Infrastructure.csproj">
+      <Project>{7EBD2C9F-B9F3-4259-924B-0982B2371089}</Project>
+      <Name>ZEDPAITA.SRV.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZEDPAITA.SRV.Util.Log4Net\ZEDPAITA.SRV.Util.Log4Net.csproj">
+      <Project>{9C53D001-CD8D-4AD7-924E-832DF7EDDBE3}</Project>
+      <Name>ZEDPAITA.SRV.Util.Log4Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZEDPAITA.SRV.Util.LoggingInterface\ZEDPAITA.SRV.Util.LoggingInterface.csproj">
+      <Project>{F325D3D4-B4EC-4FAD-B5B9-7BD08C1C3BD7}</Project>
+      <Name>ZEDPAITA.SRV.Util.LoggingInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
